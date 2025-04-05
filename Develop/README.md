@@ -1,33 +1,82 @@
-# React + TypeScript + Vite
+# Candidate Search [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
-
-* [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md), which uses [Babel](https://babeljs.io/) for Fast Refresh
-* [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc), which uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you're developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-* Configure the top-level `parserOptions` property as follows:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-* Replace `plugin:@typescript-eslint/recommended` with `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`.
-* Optionally, add `plugin:@typescript-eslint/stylistic-type-checked`.
-* Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
+Candidate Search is a React + TypeScript application that allows employers to search for potential candidates using the GitHub API. Users can review candidates, save them to a list of potential hires, or skip them. The list of saved candidates persists across sessions using local storage.
 
 ---
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+
+## Table of Contents
+
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Deployment](#deployment)
+- [License](#license)
+- [Contribution Guidelines](#contribution-guidelines)
+- [Questions](#questions)
+
+---
+
+## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/candidate-search.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd Candidate_Search/Develop
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+
+---
+
+## Usage
+
+1. Create a `.env` file in the `environment` folder with the following content:
+   ```
+   VITE_GITHUB_TOKEN=your_personal_access_token
+   ```
+   Replace `your_personal_access_token` with your GitHub Personal Access Token.
+
+2. Start the development server:
+   ```sh
+   npm run dev
+   ```
+
+3. Open the application in your browser at `http://localhost:5173`.
+
+---
+
+## Deployment
+
+The application is deployed on Render. You can access it at: [Deployed Application URL](#)
+
+see this screenshots of the app:
+![https://1drv.ms/i/c/3b216777a5c674e6/EXyZCd4rnbxLsq0YiiA1kKoBx4p-JldXNLUj9N04Dkr1dQ?e=JZTX5U](#)
+![https://1drv.ms/i/c/3b216777a5c674e6/EftsGyGtOBVKkwu-25b_kMQBotrylGinj1asTfkAYj6pKg?e=j6fx6M](#)
+---
+
+## License
+Project license: MIT
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+---
+
+## Contribution Guidelines
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so.
+
+---
+
+## Test Instructions
+
+Tests will be added in the future.
+
+## Questions
+If you have any questions, please feel free to contact me at gamalmubarak87@gmail.com. You can also find more of my work at [gamalmubarak](https://github.com/gamalmubarak).
