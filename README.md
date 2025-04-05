@@ -57,8 +57,8 @@ Candidate Search is a React + TypeScript application that allows employers to se
 The application is deployed on Render. You can access it at: [Deployed Application URL](#)
 
 see this screenshots of the app:
-![https://1drv.ms/i/c/3b216777a5c674e6/EXyZCd4rnbxLsq0YiiA1kKoBx4p-JldXNLUj9N04Dkr1dQ?e=JZTX5U](#)
-![https://1drv.ms/i/c/3b216777a5c674e6/EftsGyGtOBVKkwu-25b_kMQBotrylGinj1asTfkAYj6pKg?e=j6fx6M](#)
+![https://1drv.ms/i/c/3b216777a5c674e6/EQakyNRX5eNInoraZ2iVCYoBYNJg7E5CbTXHHcCBcKCc4Q?e=rVfVkB](#)
+![https://1drv.ms/i/c/3b216777a5c674e6/EXyZCd4rnbxLsq0YiiA1kKoBx4p-JldXNLUj9N04Dkr1dQ?e=jxzrSO](#)
 ---
 
 ## License
